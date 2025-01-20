@@ -9,7 +9,6 @@ import { TouchableOpacity } from 'react-native';
 import Ionicons from '@expo/vector-icons/build/Ionicons';
 import Colors from '@/constants/Colors';
 
-
 export {
   // Catch any errors thrown by the Layout component.
   ErrorBoundary,

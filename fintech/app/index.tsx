@@ -13,7 +13,7 @@ const Page = () => {
     <View style={styles.container}>
       {assets && (
         <Video
-          resizeMode={ResizeMode.COVER}
+          resizeMode={ResizeMode.CONTAIN} // Adjust this to ResizeMode.COVER if needed
           isMuted
           isLooping
           shouldPlay
@@ -71,4 +71,5 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
   },
 });
+
 export default Page;
