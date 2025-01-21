@@ -30,7 +30,8 @@
     },
     "plugins": [
       "expo-router",
-      "expo-dynamic-app-icon"
+      "expo-dynamic-app-icon",
+      "expo-secure-store"
     ],
     "experiments": {
       "typedRoutes": true

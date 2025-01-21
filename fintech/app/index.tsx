@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
     position: 'absolute',
   },
   header: {
-    fontSize: 36,
+    fontSize: 37,
     fontWeight: '900',
     textTransform: 'uppercase',
     color: 'white',
